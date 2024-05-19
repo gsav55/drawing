@@ -9,6 +9,8 @@ html {
 
 canvas {
 	border: 1px solid aliceblue;
+	margin: 0 auto;
+	display: block;
 }
 
 body {
@@ -20,7 +22,8 @@ body {
 
 h1 {
 	font-size: 60px;
-	/*text-align: center;*/
+	margin: 0;
+	padding: 20px 0;
 }
 h2 {
 	font-size: 40px;
