@@ -1,3 +1,6 @@
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "Hello World!"
+
 const canvas = document.getElementById("canvas");
 if (canvas.getContext){
 const ctx = canvas.getContext("2d");
@@ -8,5 +11,6 @@ const ctx = canvas.getContext("2d");
 	ctx.fillRect(25,25,50,50);
 }
 
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello World!"
+canvas.addEventListener( "click", () => {
+	myHeading.textContent = "You Clicked Me!"
+});
