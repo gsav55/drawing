@@ -1,0 +1,42 @@
+html {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  background-color: black;
+}
+
+canvas {
+	border: 1px solid aliceblue;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 5px solid aliceblue;
+}
+
+h1 {
+	font-size: 60px;
+	/*text-align: center;*/
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+}
+h4,
+h5,
+h6 {
+	font-size: 25px;
+}
+
+p,
+li {
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
